@@ -33,7 +33,7 @@ services:
       - monitoring
 
   cadvisor:
-    image: google/cadvisor:latest
+    image: gcr.io/cadvisor/cadvisor:v0.37.0
     container_name: cadvisor
     ports:
       - "5080:8080"
